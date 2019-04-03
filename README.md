@@ -1,5 +1,3 @@
-# Pritam_AI_code_in_python_1
-
 # Me and my python machine learning and deep learning code repository projects introduction with internet site link to my kaggle project and dialogflow chatbot. 
 
 Hi, I am Pritam, a data scientist with expertise on NLP and Computer Vision. I was busy working on Artificial intelligence projects in upwork, so I have not uploaded files for long time on github. Recently I have uploaded my machine learning and deep learning projects to this repository that I have done to increase my real experience on artificial intelligence projects. 
