@@ -52,7 +52,9 @@ User: Hi
 
 Chatbot: Hi. 
 
-User: I want to book a reservation with the sales team of data_1 company. Chatbot: For how many clients? 
+User: I want to book a reservation with the sales team of data_1 company. 
+
+Chatbot: For how many clients? 
 
 User: 3 
 
@@ -126,7 +128,9 @@ User: I want to book a reservation with sales team of data_1 company.
 
 Chatbot: For how many clients? 
 
-User: 3. Chatbot: What is the date of booking reservation? 
+User: 3. 
+
+Chatbot: What is the date of booking reservation? 
 
 User: 6th October, at 10 am. 
 
