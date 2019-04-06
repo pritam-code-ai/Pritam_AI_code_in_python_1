@@ -45,49 +45,91 @@ https://bot.dialogflow.com/53f15958-8f57-4c94-8b48-117dd7b1c128
 
 It works as- 
 
+
 BASIC FEATURE: 
+
 User: Hi 
+
 Chatbot: Hi. 
+
 User: I want to book a reservation with the sales team of data_1 company. Chatbot: For how many clients? 
+
 User: 3 
+
 Chatbot: what is the date of booking reservation? 
+
 User: 5 th december. 
+
 Chatbot: what is the time of booking reservation? 
+
 User: 10 am. 
+
 Chatbot: You have successfully reserved an appointment for 3 clients on Wed Dec 05 2018 10:00.
 
-ADVANCED FEATURE: VALIDATION 1:
+
+
+ADVANCED FEATURE: 
+
+VALIDATION 1:
 
 User: Hello. 
+
 Chatbot: Good day. 
+
 User: How are you? 
+
 Chatbot: Feeling wonderful! 
+
 User: I want to book a reservation with sales team of data_1 company. 
+
 Chatbot: For how many clients? 
+
 User: 3. 
+
 Chatbot: what is date of booking reservation? 
+
 User: 5 th October. 
+
 Chatbot: what is time of booking reservation? 
+
 User: 6 pm. 
+
 Chatbot: You can't make a reservation in the past. Please try again!
 
-ADVANCED FEATURE: VALIDATION 2:
+
+
+ADVANCED FEATURE: 
+
+VALIDATION 2:
 
 User: I want to book a reservation with sales team of data_1 company. 
+
 Chatbot: For how many clients? 
+
 User: - 3. 
+
 Chatbot: What is date of booking reservation? 
+
 User: 5 th December at 6 pm. 
+
 Chatbot: You need to reserve an appointment for at least one person. Please try again!
 
-ADVANCED FEATURE: VALIDATION 3:
+ADVANCED FEATURE: 
+
+VALIDATION 3:
 
 User: Hello. 
+
 Chatbot: Hi. 
+
 User: I want to book a reservation with sales team of data_1 company. 
+
 Chatbot: For how many clients? 
+
 User: 3. Chatbot: What is the date of booking reservation? 
+
 User: 6th October, at 10 am. 
+
 Chatbot: You can't make a reservation for 2019 yet. Please choose a date in 2018.
 
 This chatbot check for time condition as within the CURRENT YEAR. Although it can be modified, by changing the code in dialogflow code section. 
