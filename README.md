@@ -5,7 +5,10 @@ In this repository, more of the files are in ipynb format. The projects are on N
 
 In the NLU and NLP project, I have done text summarization, entity recognition, intent ranking, topic modeling, used various NLP models like NLTK, devpavlov for NLP and RasaNLU model for NLU. I also trained, saved and loaded models for NLP projects. 
 
-In computer vision projects, I have built a sophisticated multi layered graphical tracker to track object and people in video and picture file, done a human face emotions recognition project in python and coded a human face generation project using GAN or more specifically DCGAN using Google colaboratory with GPU. 
+In computer vision projects, I have built a advanced graphics design surveillance system with people recognition and counting,  sophisticated multi layered graphical tracker to track object and people in video and picture file, done a human face emotions recognition project in python and coded a human face generation project using GAN or more specifically DCGAN using Google colaboratory with GPU. 
+
+As a combined project, 
+I have coded a speech recognition with NLP and internet data scraping project in pyrhon 3.6. In this project, I have used python to download YouTube video and automatically converted it to audio and the applied speech recognition on the audio file. Then I have summarized the total speech to text data with conditioned mentioned as for the lines in summarized data. Then I have applied some correction and language conversion from English to bengali on the summarised data. At end, I have used two types of sentiment classifier in python to do advanced sentiment and subjectivity on the summarised data in English. 
 
 Also, in this repository, I have added various machine learning models code with variety in each type of model, csv data wrangling project and pyspark big data project for movie ratings prediction and recommendation.  
 
